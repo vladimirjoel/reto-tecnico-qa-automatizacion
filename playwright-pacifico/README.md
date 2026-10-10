@@ -87,3 +87,16 @@ src/helper/allure-reporter.js       Integración con Allure
 - **Trace de Playwright** solo de escenarios fallidos (DOM, red, consola y capturas paso a paso).
 - **Captura tolerante a fallos**: un problema al tomar la evidencia nunca hace fallar la prueba.
 - **Contexto de navegador aislado por escenario** (sin cookies ni carrito compartidos).
+
+## Evidencias de ejecución
+
+Las evidencias generadas tras ejecutar las pruebas del entorno `dev` con Chrome se encuentran en la carpeta `evidencias/`.
+
+- **Reporte HTML:** `evidencias/index.html`
+- **Reporte PDF:** `evidencias/evidencias.pdf`
+
+**Resultado de la última ejecución:**
+- Características aprobadas: 3
+- Escenarios aprobados: 19
+- Pasos aprobados: 85
+- Escenarios fallidos: 0

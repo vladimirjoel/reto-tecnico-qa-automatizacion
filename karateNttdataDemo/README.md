@@ -25,6 +25,7 @@ mvn clean test -Dthreads=1                            # hilos (por defecto 3)
 |---|---|
 | Karate | `target/karate-reports/karate-summary.html` |
 | Cucumber HTML | `target/cucumber-html-reports/overview-features.html` |
+| Evidencia conservada | `evidencias/karate-reports/karate-summary.html` |
 
 ## Estructura
 ```
